@@ -12,34 +12,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EvenFibonacciNumbers.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem1to10/EvenFibonacciNumbers.java">
+      <file leaf-file-name="LargestPalindromeProduct.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/problem1to10/LargestPalindromeProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="18" column="14" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Multiples3or5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/problem1to10/Multiples3or5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LargestPrimeFactor.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/problem1to10/LargestPrimeFactor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="75" column="1" lean-forward="true" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
+            <state relative-caret-position="357">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
               <folding>
-                <element signature="e#1266#1267#0" expanded="true" />
-                <element signature="e#1295#1296#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-                <element signature="e#890#891#0" expanded="true" />
+                <element signature="e#2714#2715#0" expanded="true" />
+                <element signature="e#2751#2752#0" expanded="true" />
+                <element signature="e#2841#2842#0" expanded="true" />
+                <element signature="e#2871#2872#0" expanded="true" />
+                <element signature="e#2962#2963#0" expanded="true" />
+                <element signature="e#2992#2993#0" expanded="true" />
+                <element signature="e#3098#3099#0" expanded="true" />
+                <element signature="e#3127#3128#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +51,7 @@
         <option value="$PROJECT_DIR$/src/Problem1to10/Multiples3or5.java" />
         <option value="$PROJECT_DIR$/src/Problem1to10/EvenFibonacciNumbers.java" />
         <option value="$PROJECT_DIR$/src/problem1to10/LargestPrimeFactor.java" />
+        <option value="$PROJECT_DIR$/src/problem1to10/LargestPalindromeProduct.java" />
       </list>
     </option>
   </component>
@@ -117,7 +104,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LargestPrimeFactor">
+  <component name="RunManager" selected="Application.LargestPalindromeProduct">
     <configuration name="EvenFibonacciNumbers (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem1to10.EvenFibonacciNumbers" />
       <module name="ProjectEulerPractice" />
@@ -133,6 +120,17 @@
       <option name="MAIN_CLASS_NAME" value="EvenFibonacciNumbers" />
       <module name="ProjectEulerPractice" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="LargestPalindromeProduct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="problem1to10.LargestPalindromeProduct" />
+      <module name="ProjectEulerPractice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="problem1to10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
     </configuration>
     <configuration name="LargestPrimeFactor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="problem1to10.LargestPrimeFactor" />
@@ -155,11 +153,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-    </configuration>
-    <configuration name="Multiples3or5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Multiples3or5" />
-      <module name="ProjectEulerPractice" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -203,19 +196,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Multiples3or5" />
       <item itemvalue="Application.EvenFibonacciNumbers" />
       <item itemvalue="Application.EvenFibonacciNumbers (1)" />
       <item itemvalue="Application.Multiples3or5 (1)" />
       <item itemvalue="Application.LargestPrimeFactor" />
+      <item itemvalue="Application.LargestPalindromeProduct" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LargestPalindromeProduct" />
         <item itemvalue="Application.LargestPrimeFactor" />
         <item itemvalue="Application.Multiples3or5 (1)" />
         <item itemvalue="Application.EvenFibonacciNumbers (1)" />
         <item itemvalue="Application.EvenFibonacciNumbers" />
-        <item itemvalue="Application.Multiples3or5" />
       </list>
     </recent_temporary>
   </component>
@@ -309,6 +302,23 @@
             <element signature="e#1295#1296#0" expanded="true" />
             <element signature="e#863#864#0" expanded="true" />
             <element signature="e#890#891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/problem1to10/LargestPalindromeProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#2714#2715#0" expanded="true" />
+            <element signature="e#2751#2752#0" expanded="true" />
+            <element signature="e#2841#2842#0" expanded="true" />
+            <element signature="e#2871#2872#0" expanded="true" />
+            <element signature="e#2962#2963#0" expanded="true" />
+            <element signature="e#2992#2993#0" expanded="true" />
+            <element signature="e#3098#3099#0" expanded="true" />
+            <element signature="e#3127#3128#0" expanded="true" />
           </folding>
         </state>
       </provider>
