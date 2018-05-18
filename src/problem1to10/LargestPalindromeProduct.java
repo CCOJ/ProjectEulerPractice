@@ -27,6 +27,7 @@ public class LargestPalindromeProduct {
     private void computeLargestProduct() {
         int maxNumber1 = (int) Math.pow(10, digits) - 1; //If 3 digits then (10^3)-1 = 1000 - 1 = 999
         int maxNumber2 = (int) Math.pow(10, digits) - 1;
+        int number1, number2;
         int product;
         largestProduct = 0;
         int limit = (int) Math.pow(10, digits - 1);
@@ -41,6 +42,8 @@ public class LargestPalindromeProduct {
                     if (product > largestProduct)
                     {
                         largestProduct = product;
+                        this.number1 = number1;
+                        this.number2 = number2;
                         //System.out.println("---Debug---\nProduct: " + largestProduct + "\n---Debug---\n");
                     }
                 }
